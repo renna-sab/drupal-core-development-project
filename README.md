@@ -28,7 +28,7 @@ https://www.drupal.org/project/drupal/issues/1792310.
 To install a Drupal project for working on Drupal core:
 
 ```
-$ composer create-project joachim-n/drupal-core-development-project
+$ composer create-project renna-sab/drupal-core-development-project
 ```
 
 Composer will clone Drupal core into a 'repos/drupal' directory within the
@@ -50,7 +50,7 @@ for your project and `cd` into it. Then:
 ```
 $ ddev config --project-type=drupal --php-version=8.3
 $ ddev start
-$ ddev composer create joachim-n/drupal-core-development-project
+$ ddev composer create renna-sab/drupal-core-development-project
 $ ddev config --update
 $ ddev restart
 ```
@@ -121,7 +121,7 @@ feature branch does not satisfy requirements. You can do one of:
 ### Contrib and custom tests
 
 Contrib and custom module tests can't be run. For details, see
-https://github.com/joachim-n/drupal-core-development-project/issues/14.
+https://github.com/renna-sab/drupal-core-development-project/issues/14.
 
 ### 'Could not scan for classes' error messages
 
@@ -262,7 +262,7 @@ clone of the template repository.
 In a separate location, do:
 
 ```
-$ composer create-project joachim-n/drupal-core-development-project NEW_PROJECT_DIRECTORY --stability=dev --repository='{"url":"/path/to/git/clone/of/project/template/","type":"vcs"}'
+$ composer create-project renna-sab/drupal-core-development-project NEW_PROJECT_DIRECTORY --stability=dev --repository='{"url":"/path/to/git/clone/of/project/template/","type":"vcs"}'
 ```
 
 ### Workarounds
